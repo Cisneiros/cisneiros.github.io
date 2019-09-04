@@ -1,0 +1,10 @@
+# IDE
+.idea/
+
+# Local files
+.shadow-cljs/
+out/
+target/
+node_modules/
+pom.xml
+.DS_Store

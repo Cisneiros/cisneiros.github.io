@@ -1,0 +1,25 @@
+{:nubank   {:company  "Nubank"
+            :title    "Software Engineer"
+            :location "São Paulo, BR"
+            :started  #year-month [2018 4]
+            :ended    nil}
+ :in-loco  {:company  "In Loco"
+            :title    "Site Reliability Engineer"
+            :location "Recife, BR"
+            :started  #year-month [2016 11]
+            :ended    #year-month [2018 4]}
+ :teslabit {:company  "Teslabit"
+            :title    "Software Engineer"
+            :location "Recife, BR"
+            :started  #year-month [2015 10]
+            :ended    #year-month [2016 10]}
+ :refme    {:company  "RefME"
+            :title    "Software Engineer Intern"
+            :location "London, UK"
+            :started  #year-month [2015 2]
+            :ended    #year-month [2015 7]}
+ :bbtcr    {:company  "BlackBerry Tech Center Recife"
+            :title    "Software Engineer"
+            :location "Recife, BR"
+            :started  #year-month [2013 1]
+            :ended    #year-month [2014 5]}}

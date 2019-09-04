@@ -1,0 +1,184 @@
+{:yes-she-codes-2019        {:title    "Yes, She Codes"
+                             :location "São Paulo, BR"
+                             :roles    #{:interviewer}
+                             :date     #date [2019 8 23]
+                             :sessions [{:title "Fireside interview with Nubank's CTO Ed Wible"}]}
+ :devops-days-fln-2019      {:title    "DevOps Days FLN 2019"
+                             :location "Florianópoles, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2019 7 27]
+                             :sessions [{:title  "Cloud Native Banking"
+                                         :slides "https://speakerdeck.com/cisneiros/cloud-native-banking"}]}
+ :tdc-sp-2019               {:title    "TDC SP 2019"
+                             :tracks   #{"DevOps" "Microservices" "Cloud Computing"}
+                             :location "São Paulo, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2019 7 16]
+                             :sessions [{:title  "Cloud Native Banking"
+                                         :slides "https://speakerdeck.com/cisneiros/cloud-native-banking"
+                                         :tracks #{"Microservices" "Cloud Computing"}}
+                                        {:title  "Construindo uma Cultura de Observabilidade que Escala"
+                                         :slides "https://speakerdeck.com/cisneiros/observabilidade-e-resposta-a-incidentes-construindo-uma-cultura-que-escala-qcon-sp-2019-community-night"
+                                         :tracks #{"DevOps"}}]
+                             :links    [{:kind :website
+                                         :url  "http://www.thedevelopersconference.com.br/tdc/2019/saopaulo/trilhas"}]}
+ :tdc-bh-2019               {:title    "TDC BH 2019"
+                             :tracks   #{"DevOps" "Microservices" "Architecture"}
+                             :location "Belo Horizonte, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2019 6 13]
+                             :sessions [{:title  "Cloud Native Banking"
+                                         :slides "https://speakerdeck.com/cisneiros/cloud-native-banking"
+                                         :tracks #{"Microservices" "Architecture"}}
+                                        {:title  "Construindo uma Cultura de Observabilidade que Escala"
+                                         :slides "https://speakerdeck.com/cisneiros/observabilidade-e-resposta-a-incidentes-construindo-uma-cultura-que-escala-qcon-sp-2019-community-night"
+                                         :tracks #{"DevOps"}}]
+                             :links    [{:kind :website
+                                         :url  "http://www.thedevelopersconference.com.br/tdc/2019/belohorizonte/trilhas"}]}
+ :elixir-brasil-2019        {:title    "Elixir Brasil 2019"
+                             :location "São Paulo, BR"
+                             :roles    #{:interviewer}
+                             :date     #date [2019 5 25]
+                             :sessions [{:title "Fireside interview with Nubank's CTO Ed Wible"}]
+                             :links    [{:kind :website
+                                         :url  "https://2019.elixirbrasil.com"}]}
+ :clojure-bridge-sp-2019    {:title       "ClojureBridge SP 2019"
+                             :description "Clojure and Functional Programming training for women, transgender and non-binary people"
+                             :location    "São Paulo, BR"
+                             :roles       #{:instructor}
+                             :date        #date [2019 5 18]
+                             :links       [{:kind :website
+                                            :url  "https://clojurebridge.org/events/2019-05-18-sao-paulo"}]}
+ :qcon-2019-community-night {:title    "QCon 2019 Community Night"
+                             :location "São Paulo, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2019 5 8]
+                             :sessions [{:title  "Construindo uma Cultura de Observabilidade que Escala"
+                                         :slides "https://speakerdeck.com/cisneiros/observabilidade-e-resposta-a-incidentes-construindo-uma-cultura-que-escala-qcon-sp-2019-community-night"
+                                         :tracks #{"DevOps"}}]
+                             :links    [{:kind :website
+                                         :url  "https://qconsp.com/schedule/sp2019/tabular"}]}
+ :isdop                     {:title    "Meetup Infra, Suporte, DevOps e Outras Paradas"
+                             :location "São Paulo, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2018 12 21]
+                             :sessions [{:title  "Monitorando seu Cluster de Kubernetes com Prometheus"
+                                         :slides "https://speakerdeck.com/cisneiros/monitorando-seu-cluster-de-kubernetes-com-prometheus-tdc-poa-2018"}]}
+ :clojure-bridge-sp-2018    {:title       "ClojureBridge SP 2018"
+                             :description "Clojure and Functional Programming training for women, transgender and non-binary people"
+                             :location    "São Paulo, BR"
+                             :roles       #{:instructor}
+                             :date        #date [2018 12 15]
+                             :links       [{:kind :web-worker
+                                            :url  "https://clojurebridge.org/events/2018-12-15-sao-paulo"}]}
+ :tdc-poa-2018              {:title    "TDC POA 2018"
+                             :tracks   #{"Containers"}
+                             :location "Porto Alegre, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2018 12 8]
+                             :sessions [{:title  "Monitorando seu cluster de Kubernetes com Prometheus!"
+                                         :slides "https://speakerdeck.com/cisneiros/monitorando-seu-cluster-de-kubernetes-com-prometheus-tdc-poa-2018"}]
+                             :links    [{:kind :website
+                                         :url  "http://www.thedevelopersconference.com.br/tdc/2018/portoalegre/trilhas"}]}
+ :reinvent-2018             {:title    "AWS re:Invent 2018"
+                             :location "Las Vegas, US"
+                             :roles    #{:speaker}
+                             :date     #date [2018 11 29]
+                             :sessions [{:title  "Cloud Native Banking"
+                                         :slides "https://speakerdeck.com/cisneiros/how-the-cloud-helps-nubank-support-millions-of-daily-customers-aws-re-invent-2018"
+                                         :video  "https://www.youtube.com/watch?v=iwWM8rPax-E"}]}
+ :dev-fest-bh-2018          {:title    "DevFest BH 2018"
+                             :location "Belo Horizonte, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2018 11 10]
+                             :sessions [{:title  "Kubernetes: O maravilhoso mundo dos orquestradores de containers"
+                                         :slides "https://speakerdeck.com/cisneiros/kubernetes-o-maravilhoso-mundo-dos-orquestradores-de-containers-devfest-bh-2018"}]
+                             :links    [{:kind :website
+                                         :url  "https://www.devfestbh.com"}]}
+ :aws-summit-sp-2018        {:title    "AWS Summit São Paulo 2018"
+                             :location "São Paulo, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2018 6 21]
+                             :sessions [{:title  "Visão Geral dos Serviços de Identidade, Diretório e Acesso da AWS"
+                                         :slides "https://www.slideshare.net/AmazonWebServices/viso-geral-dos-servios-de-identidade-diretrio-e-acesso-da-aws-sid201-sao-paulo-summit"}]
+                             :links    [{:kind :website
+                                         :url  "https://aws.amazon.com/pt/summits/sao-paulo/"}]}
+ :cloud-study-jams          {:title       "Cloud Study Jams Recife"
+                             :description "Cloud computing training"
+                             :location    "Recife, BR"
+                             :roles       #{:instructor}
+                             :date        #date [2018 2 24]}
+ :dev-fest-xp               {:title    "DevFest XP 2017"
+                             :location "Recife, BR"
+                             :roles    #{:organizer}
+                             :date     #date [2017 12 9]
+                             :links    [{:title "DevFest XP 2017"
+                                         :kind  :website
+                                         :url   "https://devfestxp.com"}]}
+ :dev-fest-xp-citd          {:title    "Code in the Dark Recife"
+                             :location "Recife, BR"
+                             :roles    #{:organizer :presenter}
+                             :date     #date [2017 12 9]
+                             :links    [{:title "Code in the Dark"
+                                         :kind  :website
+                                         :url   "http://codeinthedark.com"}]}
+ :tropical-conf-2018        {:title    "Tropical Conf 2018"
+                             :location "Recife, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2017 10 26]
+                             :sessions [{:title "Lightning Talk: Monitorando aplicações distribuidas"}]
+                             :links    [{:kind :website
+                                         :url  "https://tropicalconf.com"}]}
+ :deep-dive-in-loco         {:title    "Deep Dive"
+                             :location "Recife, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2017 10 25]
+                             :sessions [{:title "Live Coding: zero downtime deployment com Docker e Kubernetes"}]}
+ :code-in-the-dark          {:title    "Code in the Dark Recife"
+                             :location "Recife, BR"
+                             :roles    #{:organizer :presenter}
+                             :date     #date [2017 7 23]
+                             :links    [{:kind :website
+                                         :url  "http://codeinthedark.com"}]}
+ :1-up-learning             {:title    "1Up Learning"
+                             :location "Recife, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2016 10 27]
+                             :sessions [{:title "Primeiros passos com Docker: arquitetando aplicações com microsserviços"}]}
+ :cocoa-heads-recife        {:title    "CocoaHeads Recife"
+                             :location "Recife, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2016 5 25]
+                             :sessions [{:title "Apps para o Apple Watch: hora de começar!"}]}
+ :container-camp-sf         {:title    "Container Camp SF 2016"
+                             :location "San Fancisco, US"
+                             :roles    #{:staff}
+                             :date     #date [2016 4 15]
+                             :links    [{:kind :website
+                                         :url  "https://2016.container.camp/usa/"}]}
+ :desafio-neurotech         {:title       "Desafio Neurotech"
+                             :description "Corporate Hackathon"
+                             :location    "Recife, PE"
+                             :roles       #{:organizer :presenter}
+                             :date        #date [2015 11 3]}
+ :dev-fest-ne               {:title    "DevFest NE 2015"
+                             :location "Recife, PE"
+                             :roles    #{:track-coordinator}
+                             :date     #date [2015 10 17]}
+ :container-camp-uk         {:title    "Container Camp UK 2015"
+                             :location "London, UK"
+                             :roles    #{:staff}
+                             :date     #date [2015 9 11]
+                             :links    [{:kind :website
+                                         :url  "https://2015.container.camp/uk/"}]}
+ :tedx-ufpe                 {:title    "TEDxUFPE 2013"
+                             :location "Recife, BR"
+                             :roles    #{:organizer}
+                             :date     #date [2013 6 8]
+                             :links    [{:kind :website
+                                         :url  "https://www.ted.com/tedx/events/6076"}]}
+ :jornada-citi-xxvi         {:title       "XXVI Jornada de Cursos CITi"
+                             :description "Web development training"
+                             :location    "Recife, BR"
+                             :roles       #{:instructor}
+                             :date        #date [2014 9 1]}}
