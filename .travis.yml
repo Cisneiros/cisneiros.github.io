@@ -46,5 +46,6 @@ deploy:
     github_token: $GITHUB_TOKEN
     committer_from_gh: true
     local_dir: out
+    fqdn: cisne.dev
     on:
       branch: master
