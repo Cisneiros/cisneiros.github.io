@@ -5,16 +5,14 @@
                 [reagent "0.8.1"]
                 [herb "0.10.0"]]
 
- :builds       {:app  {:output-dir  "target/main"
-                       :asset-path  "."
-                       :target      :browser
-                       :modules     {:main {:init-fn app.core/main!}}
-                       :devtools    {:after-load app.core/reload!
-                                     :http-root  "target/main"
-                                     :http-port  8080}
-                       :release     {:output-dir "target/production"}
-                       :build-hooks [(app.build/copy-assets!)]}
-                :test {:target   :browser-test
-                       :test-dir "target/test"
-                       :devtools {:http-port 8021
-                                  :http-root "target/test"}}}}
+ :builds       {:app      {:output-dir  "target/main"
+                           :asset-path  "."
+                           :target      :browser
+                           :modules     {:main {:init-fn app.core/main!}}
+                           :devtools    {:after-load app.core/reload!
+                                         :http-root  "target/main"
+                                         :http-port  8080}
+                           :release     {:output-dir "target/production"}
+                           :build-hooks [(app.build/copy-assets!)]}
+                :test     {:target :karma
+                           :output-to  "target/karma/test.js"}}}

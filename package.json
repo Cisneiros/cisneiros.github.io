@@ -13,5 +13,10 @@
     "create-react-class": "^15.6.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "karma": "^4.3.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cljs-test": "^0.1.0"
   }
 }
