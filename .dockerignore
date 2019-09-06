@@ -1,3 +1,6 @@
+.dockerignore
+Dockerfile
+
 # IDE
 .idea/
 
@@ -8,4 +11,3 @@ target/
 node_modules/
 pom.xml
 .DS_Store
-.cache/
