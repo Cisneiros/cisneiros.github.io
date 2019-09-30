@@ -69,7 +69,7 @@
                              :location    "São Paulo, BR"
                              :roles       #{:instructor}
                              :date        #date [2018 12 15]
-                             :links       [{:kind :web-worker
+                             :links       [{:kind :website
                                             :url  "https://clojurebridge.org/events/2018-12-15-sao-paulo"}]}
  :tdc-poa-2018              {:title    "TDC POA 2018"
                              :tracks   #{"Containers"}
