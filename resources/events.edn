@@ -1,4 +1,13 @@
-{:yes-she-codes-2019        {:title    "Yes, She Codes"
+{:tdc-rec-2019              {:title    "TDC Recife 2019"
+                             :location "Recife, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2019 10 10]
+                             :sessions [{:title  "Cloud Native Banking"
+                                         :slides "https://speakerdeck.com/cisneiros/cloud-native-banking"
+                                         :tracks   #{"DevOps" "Cloud & Containers" "Stadium"}}]
+                             :links    [{:kind :website
+                                         :url  "http://www.thedevelopersconference.com.br/tdc/2019/recife/trilhas"}]}
+ :yes-she-codes-2019        {:title    "Yes, She Codes"
                              :location "São Paulo, BR"
                              :roles    #{:interviewer}
                              :date     #date [2019 8 23]
@@ -10,7 +19,6 @@
                              :sessions [{:title  "Cloud Native Banking"
                                          :slides "https://speakerdeck.com/cisneiros/cloud-native-banking"}]}
  :tdc-sp-2019               {:title    "TDC SP 2019"
-                             :tracks   #{"DevOps" "Microservices" "Cloud Computing"}
                              :location "São Paulo, BR"
                              :roles    #{:speaker}
                              :date     #date [2019 7 16]
@@ -23,7 +31,6 @@
                              :links    [{:kind :website
                                          :url  "http://www.thedevelopersconference.com.br/tdc/2019/saopaulo/trilhas"}]}
  :tdc-bh-2019               {:title    "TDC BH 2019"
-                             :tracks   #{"DevOps" "Microservices" "Architecture"}
                              :location "Belo Horizonte, BR"
                              :roles    #{:speaker}
                              :date     #date [2019 6 13]
@@ -72,12 +79,12 @@
                              :links       [{:kind :website
                                             :url  "https://clojurebridge.org/events/2018-12-15-sao-paulo"}]}
  :tdc-poa-2018              {:title    "TDC POA 2018"
-                             :tracks   #{"Containers"}
                              :location "Porto Alegre, BR"
                              :roles    #{:speaker}
                              :date     #date [2018 12 8]
                              :sessions [{:title  "Monitorando seu cluster de Kubernetes com Prometheus!"
-                                         :slides "https://speakerdeck.com/cisneiros/monitorando-seu-cluster-de-kubernetes-com-prometheus-tdc-poa-2018"}]
+                                         :slides "https://speakerdeck.com/cisneiros/monitorando-seu-cluster-de-kubernetes-com-prometheus-tdc-poa-2018"
+                                         :tracks   #{"Containers"}}]
                              :links    [{:kind :website
                                          :url  "http://www.thedevelopersconference.com.br/tdc/2018/portoalegre/trilhas"}]}
  :reinvent-2018             {:title    "AWS re:Invent 2018"
