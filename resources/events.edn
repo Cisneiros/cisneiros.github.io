@@ -1,4 +1,14 @@
-{:tdc-rec-2019              {:title    "TDC Recife 2019"
+{:devops-days-rec-2019      {:title    "DevOps Days Recife 2019"
+                             :location "Recife, BR"
+                             :roles    #{:organizer :presenter}
+                             :date     #date [2019 12 14]}
+ :dev-fest-rec-2019         {:title    "DevFest Recife 2019"
+                             :location "Recife, BR"
+                             :roles    #{:speaker}
+                             :date     #date [2019 12 7]
+                             :sessions [{:title  "Construindo uma Cultura de Observabilidade que Escala"
+                                         :slides "https://speakerdeck.com/cisneiros/observabilidade-e-resposta-a-incidentes-construindo-uma-cultura-que-escala-qcon-sp-2019-community-night"}]}
+  :tdc-rec-2019              {:title    "TDC Recife 2019"
                              :location "Recife, BR"
                              :roles    #{:speaker}
                              :date     #date [2019 10 10]
