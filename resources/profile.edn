@@ -3,7 +3,7 @@
  :bio       "I work with full-stack web and app development, DevOps and automation.
              I like functional programming, solving people's problems and monitoring things.
              I also enjoy IoT and magic (combined or not)."
- :location  "São Paulo, BR"
+ :location  "Dublin, IE"
  :contacts  {:linkedin     "https://www.linkedin.com/in/alexandrecisneiros/"
              :github       "https://github.com/Cisneiros"
              :twitter      "https://twitter.com/Cisneiros"
