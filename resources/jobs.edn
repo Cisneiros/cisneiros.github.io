@@ -1,6 +1,6 @@
 {:stripe   {:company  "Stripe"
             :title    "Software Engineer"
-            :location "São Paulo, BR"
+            :location "Dublin, IE"
             :started  #year-month [2021 4]
             :ended    nil}
 :nubank   {:company  "Nubank"
