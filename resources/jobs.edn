@@ -1,8 +1,13 @@
-{:nubank   {:company  "Nubank"
+{:stripe   {:company  "Stripe"
+            :title    "Software Engineer"
+            :location "São Paulo, BR"
+            :started  #year-month [2021 4]
+            :ended    nil}
+:nubank   {:company  "Nubank"
             :title    "Software Engineer"
             :location "São Paulo, BR"
             :started  #year-month [2018 4]
-            :ended    nil}
+            :ended    #year-month [2021 4]}
  :in-loco  {:company  "In Loco"
             :title    "Site Reliability Engineer"
             :location "Recife, BR"
